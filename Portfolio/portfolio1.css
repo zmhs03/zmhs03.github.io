@@ -1,0 +1,168 @@
+
+@font-face {
+    font-family: "SIMPLIFICA Typeface";
+    src: url("Fonts/SIMPLIFICA\ Typeface.woff") format("opentype");
+}
+
+@font-face {
+    font-family: "Nunito-Italic-VariableFont";
+    src: url("Fonts/Nunito-Italic-VariableFont_wght.woff") format("opentype");
+}
+
+@font-face {
+    font-family: "Nunito-VariableFont";
+    src: url("Fonts/Nunito-VariableFont_wght.woff") format("opentype");
+}
+
+
+header
+{ 
+    width: 100%;
+    min-height: auto;
+    top: 0;
+    overflow: hidden;
+    display: flex;
+    background: rgb(235,207,245);
+    background: linear-gradient(90deg, rgba(235,207,245,1) 0%, rgba(245,245,243,1) 50%, rgba(246,233,216,1) 100%);
+    z-index: 999;
+    position: fixed;
+    align-items: center;
+    justify-content: space-between;
+    vertical-align: middle;
+    
+   
+}
+
+#logo
+{
+    width: 70px;
+    float: left;
+    margin: 10px 0 0 50px;
+    transition: all 300ms;
+    -webkit-transition: all 300ms;
+    -MOZ-transition: all 300ms;
+    -webkit-transition: all 300ms;
+
+
+}
+
+ #logo:hover
+ {
+    opacity: 0.5;
+ }
+
+ #logo img
+ {
+    width: 100%;
+ }
+
+ header nav 
+ {
+     float: right;
+     align-items: center;
+     align-content: space-evenly;
+     
+     padding: 20px 60px;
+ 
+ }
+ 
+ header nav ul li
+ {
+     float: left;
+     margin-right: 25px;
+     transform: translate(50%, 50%);
+ 
+    
+    
+ }
+ 
+ header nav ul li a
+ {
+     font-size: 20px;
+     color: #1d1d1f;
+     text-decoration: none;
+     
+ 
+     
+ }
+
+
+body {
+    text-align: center;
+    padding: 50px;
+    font-family: 'Nunito-VariableFont',Arial, sans-serif;
+    background: rgb(235,207,245);
+background: linear-gradient(90deg, rgba(235,207,245,1) 0%, rgba(245,245,243,1) 50%, rgba(246,233,216,1) 100%);
+  }
+  
+  h1 {
+    font-family: 'SIMPLIFICA Typeface', Arial, sans-serif;
+    font-weight: normal;
+    font-style: bold;
+    font-size: 100px;
+    position: relative;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,200%);
+    color: #1d1d1f;
+    
+  }
+  
+  p {
+    font-size: 18px;
+    transform: translateY(900%);
+    top: 50%;
+    left: 50%;
+    margin-bottom: 20px;
+
+
+  }
+
+
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    transform: translate(0%,1150%);
+    top: 50%;
+    left: 50%;
+    background-color: #1d1d1f;
+    color: whitesmoke;
+    border: none;
+    cursor: pointer;
+  }
+
+  @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {
+      width: 100%;
+      padding: 0;
+    }
+  }
+
+  @media only screen and (min-width: 601px) and (max-width: 1024px) {
+    h1 {
+      font-size: 100px;
+    }
+  
+    h2 {
+      font-size: 40px;
+      transform: translate(-120%, 30%);
+    }
+  
+    h4 {
+      font-size: 30px;
+    }
+  
+    .container {
+      padding: 0 100px;
+    }
+  
+    header nav {
+      padding: 20px 40px;
+    }
+  
+    footer .footer-content {
+      padding: 40px;
+    }
+  }
+  

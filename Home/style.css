@@ -1,0 +1,498 @@
+@font-face 
+{
+    font-family: "Leky Calgria";
+    
+    src: url("Fonts/Leky Calgria.woff") format("opentype");
+}
+
+@font-face {
+    font-family: "Montserrat-Regular";
+    src: url("Fonts/Montserrat-Regular.woff") format("opentype");
+}
+
+
+
+
+h1
+{
+    font-family: 'Leky Calgria', Arial, sans-serif;;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 150px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #1d1d1f;
+
+
+}
+
+h2
+{
+    font-family: 'Leky Calgria', Arial, sans-serif;;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 60px;
+    transform: translate(-120%,30%);
+    top: 20%;
+    left: 40%;
+    position: absolute;
+    text-align: center;
+    color: #1d1d1f;
+   
+ 
+}
+
+
+
+*
+{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+a 
+{
+    text-decoration: none;
+    font-family: 'Montserrat-Regular',Arial, sans-serif;
+    font-weight: bold;
+    color: #1d1d1f;
+    text-transform: capitalize;
+
+}
+h3
+ {
+    font-family: 'Montserrat-Regular',Arial, sans-serif;
+    font-weight: normal;
+    color: #1d1d1f;
+    text-align: center;
+    position: relative;
+    top: 2%;
+    left: 0%;
+    transform: translateY(40%);
+   
+    
+ }
+
+
+h4
+{
+    font-family: 'Leky Calgria', Arial, sans-serif;;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 60px;
+    position: relative;
+    text-align: center;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%,100%);
+    color: #1d1d1f;
+    
+}
+
+h5
+{
+    font-family: sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    color: #faf9f6;
+    
+    
+
+}
+
+
+
+
+
+ 
+
+.container p
+{
+    max-width: 700px;
+    margin: auto;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+}
+
+
+ p
+{
+    text-align: center;
+    text-indent: 50px;
+}
+
+li 
+{
+    list-style-type: none;
+}
+
+html
+{
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0; 
+}
+
+body
+{
+    background: rgb(198,162,133);
+    background: linear-gradient(0deg, rgba(198,162,133,1) 0%, rgba(240,236,232,1) 100%);
+    background-repeat: no-repeat;
+        background-attachment: static;
+    font-size: 100%;
+    font-family: sans-serif;
+    overflow-x: hidden;
+    padding-bottom:auto; 
+
+}
+
+
+
+
+img {
+    width: 100%;
+    height: auto;
+  }
+
+
+hr
+{
+    width: 30px;
+    height: 3px;
+    border: 0;
+    margin: 0 auto 40px auto;
+}
+
+header
+{ 
+    width: 100%;
+    min-height: auto;
+    top: 0;
+    overflow: hidden;
+    display: flex;
+    background-color: #eee9e4;
+    z-index: 999;
+    position: fixed;
+    align-items: center;
+    justify-content: space-between;
+    vertical-align: middle;
+    
+   
+}
+
+
+#logo
+{
+    width: 70px;
+    float: left;
+    margin: 10px 0 0 50px;
+    transition: all 300ms;
+    -webkit-transition: all 300ms;
+    -MOZ-transition: all 300ms;
+    -webkit-transition: all 300ms;
+
+
+}
+
+ #logo:hover
+ {
+    opacity: 0.5;
+ }
+
+ #logo img
+ {
+    width: 100%;
+ }
+
+ header nav 
+ {
+     float: right;
+     align-items: center;
+     align-content: space-evenly;
+     
+     padding: 20px 60px;
+ 
+ }
+ 
+ header nav ul li
+ {
+     float: left;
+     margin-right: 25px;
+     transform: translate(50%, 50%);
+ 
+    
+    
+ }
+ 
+ header nav ul li a
+ {
+     font-size: 20px;
+     color: #1d1d1f;
+     text-decoration: none;
+     
+ 
+     
+ }
+ 
+ b {
+     font-weight: bold;
+   }
+  
+  
+
+
+
+
+section
+{
+    width: 100%;
+    float: left;
+    height: 100vh;
+    position: relative;
+}
+
+
+
+#about{
+
+    text-align: justify;
+    font-size: 20px;
+    padding-left: 0;
+    
+
+}
+
+
+#intention
+{
+    
+ display: grid;
+ height: 100vh;
+
+ line-height: 1.6;
+ 
+ font-family: 'Montserrat-Regular';
+}
+
+
+.container p
+{
+
+    font-family: 'Montserrat-Regular', Arial, sans-serif;;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 25px;
+    color: #1d1d1f;
+    transform: translate(-40%,70%);
+    top: 60%;
+    left: 50%;
+    text-align: left;
+    text-indent: 0px;
+    display: flex;
+    
+}
+
+.image img
+{
+    float: right;
+    position: relative;
+    transform: translate(-20%,-40%);
+    opacity: 1;
+    height: 500px;
+    width: 540px;
+}
+
+
+:root {
+    --clr-neutral-900: hsl(17, 19%, 10%);
+    --clr-neutral-100: hsl(0, 0%, 100%);
+    --clr-neutral-400: hsl(97, 6%, 59%);
+    --clr-accent-400: hsl(0, 0%, 0%); /* Update with desired color */
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.card {
+    transform: translateY(50%);
+    color: #f5f5ff;
+    background-image: url(/Images/pexels-picjumbocom-196646.jpg);
+    background-size: cover;
+    padding: 10rem 0 0;
+    max-width: 40ch;
+    border-radius: 0.5em;
+    overflow: hidden;
+    margin: 0 auto 40px auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-content {
+    --padding: 1.5rem;
+    padding: var(--padding);
+    background: linear-gradient(
+        hsl(0 17% 16% / 0),
+        hsl(20 17% 16% / 0.3) 20%,
+        hsl(0 17% 16% / 1)
+    );
+}
+
+.card-heading {
+    position: relative;
+    width: max-content;
+    font-size: 20px;
+}
+
+.card-heading::after {
+    content: "";
+    position: absolute;
+    height: 1px;
+    left: calc(var(--padding) * -1);
+    bottom: 0;
+    width: calc(100% + var(--padding));
+    background: var(--clr-accent-400);
+}
+
+.card-frame {
+    text-indent: 0px;
+    display: flex;
+    text-align: left;
+}
+
+.button {
+    cursor: pointer;
+    display: inline;
+    text-decoration: none;
+    color: var(--clr-neutral-900);
+    background-color: var(--clr-neutral-400);
+    padding: 0.5em 1.25em;
+}
+
+.button:hover,
+.button:focus {
+    background-color: var(--clr-neutral-100);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.row .column {
+    float: left;
+    width:33.33%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+    .column {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+
+ 
+
+  
+  footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #cdaf96;
+    height: auto;
+    width: 100vw;
+    font-family: 'Montserrat-Regular',Arial, sans-serif;
+    padding-top: 40px;
+    color: #1d1d1f;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    
+    color: #f5f5ff;
+}
+.socials a i{
+    font-size: 1.1rem;
+    transition: color .4s ease;
+
+}
+.socials a:hover i{
+    color: #322219;
+}
+
+
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {
+      width: 100%;
+      padding: 0;
+    }
+  }
+
+  @media only screen and (min-width: 601px) and (max-width: 1024px) {
+    h1 {
+      font-size: 100px;
+    }
+  
+    h2 {
+      font-size: 40px;
+      transform: translate(-120%, 30%);
+    }
+  
+    h4 {
+      font-size: 30px;
+    }
+  
+    .container {
+      padding: 0 100px;
+    }
+  
+    header nav {
+      padding: 20px 40px;
+    }
+  
+    footer .footer-content {
+      padding: 40px;
+    }
+  }
